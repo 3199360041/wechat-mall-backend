@@ -3,7 +3,7 @@
 namespace app\api\controller;
 
 use app\api\service\Token;
-use think\Controller;
+use app\common\controller\BaseController as Controller;
 
 class BaseController extends Controller
 {

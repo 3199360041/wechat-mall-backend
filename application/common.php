@@ -83,8 +83,6 @@ function getRandChar($length)
     return $str;
 }
 
-
-
 function fromArrayToModel($m , $array)
 {
     foreach ($array as $key => $value)
