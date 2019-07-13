@@ -1,3 +1,8 @@
+```bash
+cd ./public
+path/to/php -S 127.0.0.1:8000 router.php
+```
+
 #  运行的时候，需要配置微信小程序的id和secret, 微信支付相关的商户号和支付key
 #  ./application/extra/wx.php
 

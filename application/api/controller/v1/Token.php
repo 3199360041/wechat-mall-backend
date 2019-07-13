@@ -19,7 +19,7 @@ class Token
         ];
     }
 
-    public function verfiyToken($token = '')
+    public function verifyToken($token = '')
     {
         if(!$token){
             throw new ParameterException([
