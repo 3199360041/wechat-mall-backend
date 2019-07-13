@@ -14,7 +14,7 @@ path/to/php -S 127.0.0.1:8000 router.php
 #  TODO:
 * 后台管理系统
 * 第三方云储存(qiniu, aliyuncs, qcloud)
-* 微信小程序端支付功能
+
 
 
 #   wx.php文件内容如下:
