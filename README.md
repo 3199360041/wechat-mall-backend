@@ -5,3 +5,7 @@
 #  ./application/extra/secure.php
 
 #  数据库文件是./data/zerg.sql
+
+#  TODO:
+* 后台管理系统
+* 微信小程序端支付功能
