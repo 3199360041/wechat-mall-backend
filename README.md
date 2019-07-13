@@ -8,5 +8,5 @@
 
 #  TODO:
 * 后台管理系统
-* 第三方云储存(qiniu, aliyun, )
+* 第三方云储存(qiniu, aliyuncs, qcloud)
 * 微信小程序端支付功能
