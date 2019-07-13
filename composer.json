@@ -1,23 +1,25 @@
 {
-    "name": "topthink/think",
-    "description": "the new thinkphp framework",
+    "name": "3199360041/wechat-mall-backend",
+    "description": "a mall application",
     "type": "project",
     "keywords": [
-        "framework",
-        "thinkphp",
-        "ORM"
+        "mall",
+        "thinkphp"
     ],
-    "homepage": "http://thinkphp.cn/",
+    "homepage": "https://github.com/3199360041/wechat-mall-backend",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
+            "name": "3199360041",
+            "email": "3199360041@qq.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "topthink/framework": "^5.0"
+        "topthink/framework": "5.0.7",
+        "qcloud/cos-sdk-v5": ">=1.0",
+        "qiniu/php-sdk": "^7.2",
+        "aliyuncs/oss-sdk-php": "^2.3"
     },
     "extra": {
         "think-path": "thinkphp"
