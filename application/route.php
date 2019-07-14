@@ -4,8 +4,12 @@ use think\Route;
 
 //Route::rule('路由表达式','路由地址','请求类型','路由参数（数组）','变量规则（数组）');
 
-Route::get('/', function(){
-   echo phpinfo();
+Route::group('admin', function(){
+    Route::get('/', function(){
+        return "admin";
+    });
+    Route::get('/setting/index', 'admin/Setting/index');
+    Route::get('/setting/view', 'admin/Setting/view');
 });
 
 Route::get('api/:version/banner/:id', 'api/:version.Banner/getBanner');
