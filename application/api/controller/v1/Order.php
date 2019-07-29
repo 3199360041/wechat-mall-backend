@@ -39,6 +39,25 @@ class Order extends BaseController
         return $status;
     }
 
+    public function getSummary($page = 1, $size = 20)
+    {
+        (new PagingParameter())->goCheck();
+        $pagingOrders = OrderModel::getSummaryByPage($page, $size);
+        if($pagingOrders->isEmpty())
+        {
+            return [
+                'data' => [],
+                'current_page' => $pagingOrders->currentPage()
+            ];
+        }
+        $data = $pagingOrders->hidden(['snap_items', 'snap_address'])->toArray();
+        return [
+            'data' => $data,
+            'current_page' => $pagingOrders->currentPage()
+        ];
+
+    }
+
     public function getSummaryByUser($page = 1, $size = 15)
     {
         (new PagingParameter())->goCheck();
