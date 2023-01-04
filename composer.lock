@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9edbbc4580d0df4b38326e4bcc77c08e",
+    "content-hash": "4a4f94e5bb24c07c396b3cc0e8b2d820",
     "packages": [
         {
             "name": "aliyuncs/oss-sdk-php",
@@ -332,23 +332,17 @@
         },
         {
             "name": "topthink/framework",
-            "version": "v5.0.7",
+            "version": "v5.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "bcf64f19f4fadbff6c8503891689ff7e6f2fe9a3"
+                "reference": "643c58ed1bd22a2823ce5e95b3b68a5075f9087c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/bcf64f19f4fadbff6c8503891689ff7e6f2fe9a3",
-                "reference": "bcf64f19f4fadbff6c8503891689ff7e6f2fe9a3",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://api.github.com/repos/top-think/framework/zipball/643c58ed1bd22a2823ce5e95b3b68a5075f9087c",
+                "reference": "643c58ed1bd22a2823ce5e95b3b68a5075f9087c",
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
@@ -385,33 +379,31 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2017-02-25T02:51:57+00:00"
+            "support": {
+                "issues": "https://github.com/top-think/framework/issues",
+                "source": "https://github.com/top-think/framework/tree/v5.0.25"
+            },
+            "time": "2022-10-25T14:59:38+00:00"
         },
         {
             "name": "topthink/think-installer",
-            "version": "v1.0.12",
+            "version": "v1.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/think-installer.git",
-                "reference": "1be326e68f63de4e95977ed50f46ae75f017556d"
+                "reference": "eae1740ac264a55c06134b6685dfb9f837d004d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-installer/zipball/1be326e68f63de4e95977ed50f46ae75f017556d",
-                "reference": "1be326e68f63de4e95977ed50f46ae75f017556d",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://api.github.com/repos/top-think/think-installer/zipball/eae1740ac264a55c06134b6685dfb9f837d004d1",
+                "reference": "eae1740ac264a55c06134b6685dfb9f837d004d1",
+                "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "^1.0||^2.0"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev"
+                "composer/composer": "^1.0||^2.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -432,7 +424,11 @@
                     "email": "448901948@qq.com"
                 }
             ],
-            "time": "2017-05-27T06:58:09+00:00"
+            "support": {
+                "issues": "https://github.com/top-think/think-installer/issues",
+                "source": "https://github.com/top-think/think-installer/tree/v1.0.14"
+            },
+            "time": "2021-03-25T08:34:02+00:00"
         }
     ],
     "packages-dev": [],
@@ -444,5 +440,6 @@
     "platform": {
         "php": ">=5.4.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
