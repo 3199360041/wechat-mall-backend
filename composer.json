@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "topthink/framework": "5.0.7",
+        "topthink/framework": "5.0.25",
         "qcloud/cos-sdk-v5": ">=1.0",
         "qiniu/php-sdk": "^7.2",
         "aliyuncs/oss-sdk-php": "^2.3"
